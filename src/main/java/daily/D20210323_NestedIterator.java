@@ -21,13 +21,13 @@ import java.util.List;
  * NestedIterator i = new NestedIterator(nestedList);
  * while (i.hasNext()) v[f()] = i.next();
  */
-class NestedIterator implements Iterator<Integer> {
+public class D20210323_NestedIterator implements Iterator<Integer> {
 
     private List<Integer> list;
 
     private Iterator<Integer> iterator;
 
-    public NestedIterator(List<NestedInteger> nestedList) {
+    public D20210323_NestedIterator(List<NestedInteger> nestedList) {
         list = new ArrayList<>();
         traverse(nestedList);
         iterator = list.iterator();

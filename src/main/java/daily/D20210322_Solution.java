@@ -19,7 +19,7 @@ package daily;
  *
  * @author yanglulu
  */
-public class D200322_Solution {
+public class D20210322_Solution {
 
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -35,7 +35,7 @@ public class D200322_Solution {
     }
 
     public static void main(String[] args) {
-        D200322_Solution solution = new D200322_Solution();
+        D20210322_Solution solution = new D20210322_Solution();
         System.out.println(solution.hammingWeight(Integer.valueOf("00000000000000000000000000001011", 2)));
         System.out.println(solution.hammingWeight(Integer.valueOf("00000000000000000000000010000000", 2)));
 //        System.out.println(solution.hammingWeight(Integer.valueOf("11111111111111111111111111111101", 2)));
