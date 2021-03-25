@@ -9,6 +9,11 @@ public class Assert {
         }
     }
 
+    public static void assertFalse(boolean assertion) {
+
+        assertTrue(!assertion);
+    }
+
     public static void assertEquals(int assertion, int expect) {
 
         if (assertion != expect) {
